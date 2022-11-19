@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(137, 141, 145);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #0e0d0d;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #63094c;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+<style>
+    body {
+      background-image: url('img14.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+</head>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "7bb0dbd6-2b28-4c7f-9e76-a9347dc3d1cc", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "10e6c64e-74a9-4d0e-a73b-9bbaa6d8424f", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+<body>
+
+<div class="sidenav">
+  <a href="apply_1.html">HOME</a><br>
+  <a href="login_1.html">LOGIN</a>
+  <br>
+  <a href="register_1.html">REGISTER</a>
+  <br>
+  <a href="availablejobs_1.html">AVAILABLE JOBS!!</a>
+  <br>
+  <a href="display_1.html">YOUR DETAILS</a>
+  <br>
+  <a href="about_1.html">ABOUT</a>
+  <br>
+</div>
+
+<div class="main">
+    <center>
+  <h1>SKILL AND JOB RECOMMENDER</h1>
+  <h1>APPLICATION</h1>
+    </center>
+</div>
+   
+</body>
+</html> 

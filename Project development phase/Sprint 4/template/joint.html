@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>implement3</title>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOBPORTAL | HOME</title>
+    <meta charset="UTF-8">
+        <!-- favicon -->
+        <!-- <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon"> -->
+        <!-- <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon"> -->
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-32x32.png">
+        <!-- bootstrap css cdn -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <!-- css stylesheet -->
+        <link rel="stylesheet" href="{{url_for('static',filename='css/style.css') }}">
+        <!-- font styles cdn -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap" rel="stylesheet">
+    </head>
+        <center>
+            <h1 style="font-size: 4rem; color: #2ecc71">SKILL AND JOB RECOMMENDER</h1>
+    </center>
+        <link rel="stylesheet" href="style.css">
+        <center>
+        <style>
+            body {
+              background-image: url('img4.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+            }
+            </style>
+        </center>
+        <script>
+          window.watsonAssistantChatOptions = {
+            integrationID: "7bb0dbd6-2b28-4c7f-9e76-a9347dc3d1cc", // The ID of this integration.
+            region: "au-syd", // The region your integration is hosted in.
+            serviceInstanceID: "10e6c64e-74a9-4d0e-a73b-9bbaa6d8424f", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+          setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+          });
+        </script>
+          </script>
+    </head><header id="header">
+    <nav>
+        <ul>
+           <h1><li><a href="apply.html">Apply</a></li></h1>
+            <h1><li><a href="dashboard.html">Available JOBS</a></li></h1>
+            <h1><li><a href="display.html">your Details</a></li></h1>
+            <h1><li><a href="about.html">About</a></li></h1>
+            <h1><li><a href="login.html">Login</a></li></h1>
+            <h1><li><a href="register.html">Register</a></li></h1>
+        </ul>
+    </nav>
+ </header>
+</html>
