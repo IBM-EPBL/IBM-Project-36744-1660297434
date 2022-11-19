@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOBPORTAL | HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+        <!-- favicon -->
+        <!-- <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon"> -->
+        <!-- <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon"> -->
+        <link rel="icon" type="/image/png" sizes="16x16" href="/assets/img/favicon-32x32.png">
+        <!-- bootstrap css cdn -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+        <!-- css stylesheet -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- font styles cdn -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap" rel="stylesheet">
+</head>
+<style>
+  body {
+    background-image: url('img14.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+  </style>
+  
+</style>
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "7bb0dbd6-2b28-4c7f-9e76-a9347dc3d1cc", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "10e6c64e-74a9-4d0e-a73b-9bbaa6d8424f", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+<body>
+        <!-- bootstrap navbar -->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="main-logo-img mt-3" href="#"><img src="iv.png" height="150px" width="150px">
+                <!-- <a class="navbar-brand" href="index.html">JobPortal</a> -->
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+             
+              <div class="row donate-sponsor">
+                <a type="button" class="btn btn-success mr-1" id="donate" href="login.html">LOGOUT</a>
+                <a type="button" class="btn btn-warning mr-1" id="sponsor" href="register.html">REGISTER</a>
+                <a type="button" class="btn btn-primary mr-1" id="sponsor" href="myjobs">MY JOBS</a>
+              </div>
+            </div>
+          </nav>
+          <!-- navbar ends -->
+
+        <!-- what we focus on -->
+        <section class="our-focus">
+            <div class="container">
+              <h1 class="text-center mt-3">Your Details</h1>
+              <div class="border">
+							<table class="worddark"></br></br></br></br>
+								<h2>
+                <tr>
+									<td><h3>userid:</h3></td>
+									<td><h3></h3></td>
+								</tr>
+                </h2>
+								<tr>
+									<td><h3>username:</h3></td>
+									<td><h3></h3></td>
+								</tr>
+								<tr>
+									<td><h3>Email ID:</h3></td>
+									<td><h3></h3></td>
+								</tr>
+								<tr>
+									<td><h3>qualification:</h3></td>
+									<td><h3></h3></td>
+								</tr>
+								<tr>
+									<td><h3>skills:</h3></td>
+									<td><h3></h3></td>
+								</tr>
+								<tr>
+									<td><h3>JOB Applied:</h3></td>
+									<td><h3></h3></td>
+								</tr>
+								
+											
+							</table>
+              
+          </section>
+         
+</body>
+</html>
